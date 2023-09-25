@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     path, file = get_source_location(point_number=1)
     input_file, output_file = handle_location(data_path=path, data_file=file)
-    print(f"файл с данными: {input_file!r}\nфайл результата: {output_file!r}\n")
+    print(f"файл с данными: {input_file!r}\nфайл для записи результата: {output_file!r}\n")
 
     write_equipments_report_excel(input_file, output_file)
 
