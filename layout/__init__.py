@@ -1,0 +1,1 @@
+from layout.write_equipments_report_excel import write_equipments_report_excel
